@@ -1,0 +1,1185 @@
+/* view port */
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 1vw;
+}
+
+h1,h2,h4{
+  font-family: "Abril Fatface";
+}
+.container-cus{
+  /* width: 100vw !important; */
+}
+
+
+/* Grid Setting */
+.container-cus { 
+  display: flex;
+  flex-direction: column;
+    padding: 0;
+    margin: 0;
+    /* width: 100vw; */
+  }
+  
+  .header { }
+  
+  .date {  }
+  
+  .location {  }
+  
+  .highlights {  }
+  
+  .cultural {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  
+  .tech {  display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  
+  /* Grid Setting Ends */
+
+/* Header */
+
+.header{
+  display: flex;
+  
+}
+.header-custom-imsec{
+  width: 35vw;
+  max-height: 10vh;
+  margin: 0 auto;
+  
+}
+
+
+/* Header ends */
+
+
+/* copyright */
+
+.copyright{
+  text-align: center;
+  background: #333333;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  max-height: 10vh;
+}
+/* copyright ends */
+
+/* register */
+
+.register{
+  display: flex;
+  justify-content: center;
+  background: #292D33;
+
+}
+
+.register-inner{
+  text-align: center;
+  margin: auto;
+  max-width: 50%;
+}
+.register-inner h1,.register-inner h2{
+  font-family: "Abril Fatface";
+  font-style: italic;
+}
+.register-inner h1{
+  font-size: 8rem;
+  color: #f1c50e;
+}
+.register-inner h2,a{
+  text-decoration: none;
+  color: #b9c1cc;
+  font-size: 6rem;
+}
+
+/* hover effect put */
+
+.register-inner p{
+  text-align: justify;
+  padding: 10px 0;
+  color: #fff;
+}
+/* register ends */
+
+/* desc start */
+
+.desc .row._1{
+  height: 70vh;
+}
+.desc-content {
+  text-align: center;
+  background-color: #88B0D7;
+  padding: 10px;
+
+}
+
+.desc-content h4{
+  color: #72683f;
+  word-break: none;
+  font-size: 4rem;
+}
+.desc-content p{
+  text-align: justify;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+.bg01{
+  background-image: url("../assets/background/5_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bg02{
+  background-image: url("../assets/background/VIBGYOR3.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 50%;
+
+}
+.bg05{
+  background-image: url("../assets/background/VIBGYOR6.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 50%;
+  background-position: -86px -174px;
+
+}
+
+.desc .row._2{
+  height: 60vh;
+}
+
+.bg03{
+  background-image: url("../assets/background/vibgyor1.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.bg04{
+  background-image: url("../assets/background/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+}
+
+/* desc ends */
+
+/* highlight */
+.highlights{
+  background-color: #666666;
+  max-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+}
+
+.highlights h1{
+  font-size: 6rem;
+  color: #f1c50e;
+  text-align: center;
+  font-style: italic;
+}
+
+.highlights p{
+  text-align: center;
+  max-width: 50%;
+  color: #fff;
+  font-size: 20px;
+}
+/* highlights ends */
+
+
+/* events */
+.events{
+  background-color: #292d33;
+  color: #fff;
+
+}
+
+.events h1{
+  font-size: 9rem;
+  font-style: italic;
+  text-align: center;
+}
+.events .content_container h5{
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: left;
+  width: 100%;
+  font-weight: 600;
+   
+}
+
+.events .box{
+  display: flex;
+  padding: 10px;
+}
+.events .box .img_container{
+  max-width: 250px;
+padding: 10px;
+  /* height: 100%; */
+}
+.events .box .img_container img{
+  width: 100%;
+  height: 100%;
+}
+
+.events .content_container{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+.events .button_container button,.events .button_container a{
+font-size: 1.5rem;
+margin: 10px;
+background-color: #478ac9 !important;
+color: #fff;
+font-weight: 500;
+}
+
+.events .button_container a{
+font-weight: 600;
+}
+
+.event_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 80%;
+  margin: auto;
+  
+}
+
+.box .button_container{
+  display: flex;
+
+}
+
+/* events Ends */
+/* view port */
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 25px;
+}
+
+h1,h2,h4{
+  font-family: "Abril Fatface";
+}
+.container-cus{
+  /* width: 100vw !important; */
+}
+
+
+/* Grid Setting */
+.container-cus { 
+  display: flex;
+  flex-direction: column;
+    padding: 0;
+    margin: 0;
+    /* width: 100vw; */
+  }
+  
+  .header { }
+  
+  .date {  }
+  
+  .location {  }
+  
+  .highlights {  }
+  
+  .cultural {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  
+  .tech {  display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  
+  /* Grid Setting Ends */
+
+/* Header */
+
+.header{
+  display: flex;
+  
+}
+.header-custom-imsec{
+  width: 35vw;
+  max-height: 10vh;
+  margin: 0 auto;
+  
+}
+
+
+/* Header ends */
+
+
+/* copyright */
+
+.copyright{
+  text-align: center;
+  background: #333333;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  max-height: 10vh;
+}
+/* copyright ends */
+
+/* register */
+
+.register{
+  display: flex;
+  justify-content: center;
+  background: #292D33;
+
+}
+
+.register-inner{
+  text-align: center;
+  margin: auto;
+  max-width: 50%;
+}
+.register-inner h1,.register-inner h2{
+  font-family: "Abril Fatface";
+  font-style: italic;
+}
+.register-inner h1{
+  font-size: 8rem;
+  color: #f1c50e;
+}
+.register-inner h2,a{
+  text-decoration: none;
+  color: #b9c1cc;
+  font-size: 6rem;
+}
+
+/* hover effect put */
+
+.register-inner p{
+  text-align: justify;
+  padding: 10px 0;
+  color: #fff;
+}
+/* register ends */
+
+/* desc start */
+
+.desc .row._1{
+  height: 70vh;
+}
+.desc-content {
+  text-align: center;
+  background-color: #88B0D7;
+  padding: 10px;
+
+}
+
+.desc-content h4{
+  color: #72683f;
+  word-break: none;
+  font-size: 4rem;
+}
+.desc-content p{
+  text-align: justify;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+.bg01{
+  background-image: url("../assets/background/5_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bg02{
+  background-image: url("../assets/background/VIBGYOR3.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 50%;
+
+}
+.bg05{
+  background-image: url("../assets/background/VIBGYOR6.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 50%;
+  background-position: -86px -174px;
+
+}
+
+.desc .row._2{
+  height: 60vh;
+}
+
+.bg03{
+  background-image: url("../assets/background/vibgyor1.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.bg04{
+  background-image: url("../assets/background/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+}
+
+/* desc ends */
+
+/* highlight */
+.highlights{
+  background-color: #666666;
+  max-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+}
+
+.highlights h1{
+  font-size: 6rem;
+  color: #f1c50e;
+  text-align: center;
+  font-style: italic;
+}
+
+.highlights p{
+  text-align: center;
+  max-width: 50%;
+  color: #fff;
+  font-size: 20px;
+}
+/* highlights ends */
+
+
+/* events */
+.events{
+  background-color: #292d33;
+  color: #fff;
+
+}
+
+.events h1{
+  font-size: 9rem;
+  font-style: italic;
+  text-align: center;
+}
+.events .content_container h5{
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: left;
+  width: 100%;
+  font-weight: 600;
+   
+}
+
+.events .box{
+  display: flex;
+  padding: 10px;
+}
+.events .box .img_container{
+  max-width: 250px;
+padding: 10px;
+  /* height: 100%; */
+}
+.events .box .img_container img{
+  width: 100%;
+  height: 100%;
+}
+
+.events .content_container{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+.events .button_container button,.events .button_container a{
+font-size: 1.5rem;
+margin: 10px;
+background-color: #478ac9 !important;
+color: #fff;
+font-weight: 500;
+}
+
+.events .button_container a{
+font-weight: 600;
+}
+
+.event_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 80%;
+  margin: auto;
+  
+}
+
+.box .button_container{
+  display: flex;
+
+}
+
+/* events Ends */
+/* view port */
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 25px;
+}
+
+h1,h2,h4{
+  font-family: "Abril Fatface";
+}
+.container-cus{
+  /* width: 100vw !important; */
+}
+
+
+/* Grid Setting */
+.container-cus { 
+  display: flex;
+  flex-direction: column;
+    padding: 0;
+    margin: 0;
+    /* width: 100vw; */
+  }
+  
+  .header { }
+  
+  .date {  }
+  
+  .location {  }
+  
+  .highlights {  }
+  
+  .cultural {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  
+  .tech {  display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  
+  /* Grid Setting Ends */
+
+/* Header */
+
+.header{
+  display: flex;
+  
+}
+.header-custom-imsec{
+  width: 35vw;
+  max-height: 10vh;
+  margin: 0 auto;
+  
+}
+
+
+/* Header ends */
+
+
+/* copyright */
+
+.copyright{
+  text-align: center;
+  background: #333333;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  max-height: 10vh;
+}
+/* copyright ends */
+
+/* register */
+
+.register{
+  display: flex;
+  justify-content: center;
+  background: #292D33;
+
+}
+
+.register-inner{
+  text-align: center;
+  margin: auto;
+  max-width: 50%;
+}
+.register-inner h1,.register-inner h2{
+  font-family: "Abril Fatface";
+  font-style: italic;
+}
+.register-inner h1{
+  font-size: 8rem;
+  color: #f1c50e;
+}
+.register-inner h2,a{
+  text-decoration: none;
+  color: #b9c1cc;
+  font-size: 6rem;
+}
+
+/* hover effect put */
+
+.register-inner p{
+  text-align: justify;
+  padding: 10px 0;
+  color: #fff;
+}
+/* register ends */
+
+/* desc start */
+
+.desc .row._1{
+  height: 70vh;
+}
+.desc-content {
+  text-align: center;
+  background-color: #88B0D7;
+  padding: 10px;
+
+}
+
+.desc-content h4{
+  color: #72683f;
+  word-break: none;
+  font-size: 4rem;
+}
+.desc-content p{
+  text-align: justify;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+.bg01{
+  background-image: url("../assets/background/5_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bg02{
+  background-image: url("../assets/background/VIBGYOR3.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 50%;
+
+}
+.bg05{
+  background-image: url("../assets/background/VIBGYOR6.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 50%;
+  background-position: -86px -174px;
+
+}
+
+.desc .row._2{
+  height: 60vh;
+}
+
+.bg03{
+  background-image: url("../assets/background/vibgyor1.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.bg04{
+  background-image: url("../assets/background/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+}
+
+/* desc ends */
+
+/* highlight */
+.highlights{
+  background-color: #666666;
+  max-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+}
+
+.highlights h1{
+  font-size: 6rem;
+  color: #f1c50e;
+  text-align: center;
+  font-style: italic;
+}
+
+.highlights p{
+  text-align: center;
+  max-width: 50%;
+  color: #fff;
+  font-size: 20px;
+}
+/* highlights ends */
+
+
+/* events */
+.events{
+  background-color: #292d33;
+  color: #fff;
+
+}
+
+.events h1{
+  font-size: 9rem;
+  font-style: italic;
+  text-align: center;
+}
+.events .content_container h5{
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: left;
+  width: 100%;
+  font-weight: 600;
+   
+}
+
+.events .box{
+  display: flex;
+  padding: 10px;
+}
+.events .box .img_container{
+  max-width: 250px;
+padding: 10px;
+  /* height: 100%; */
+}
+.events .box .img_container img{
+  width: 100%;
+  height: 100%;
+}
+
+.events .content_container{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+.events .button_container button,.events .button_container a{
+font-size: 1.5rem;
+margin: 10px;
+background-color: #478ac9 !important;
+color: #fff;
+font-weight: 500;
+}
+
+.events .button_container a{
+font-weight: 600;
+}
+
+.event_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 80%;
+  margin: auto;
+  
+}
+
+.box .button_container{
+  display: flex;
+
+}
+
+/* events Ends */
+/* view port */
+
+*{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 25px;
+}
+
+h1,h2,h4{
+  font-family: "Abril Fatface";
+}
+.container-cus{
+  /* width: 100vw !important; */
+}
+
+
+/* Grid Setting */
+.container-cus { 
+  display: flex;
+  flex-direction: column;
+    padding: 0;
+    margin: 0;
+    /* width: 100vw; */
+  }
+  
+  .header { }
+  
+  .date {  }
+  
+  .location {  }
+  
+  .highlights {  }
+  
+  .cultural {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  
+  .tech {  display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  
+  /* Grid Setting Ends */
+
+/* Header */
+
+.header{
+  display: flex;
+  
+}
+.header-custom-imsec{
+  width: 35vw;
+  max-height: 10vh;
+  margin: 0 auto;
+  
+}
+
+
+/* Header ends */
+
+
+/* copyright */
+
+.copyright{
+  text-align: center;
+  background: #333333;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  max-height: 10vh;
+}
+/* copyright ends */
+
+/* register */
+
+.register{
+  display: flex;
+  justify-content: center;
+  background: #292D33;
+
+}
+
+.register-inner{
+  text-align: center;
+  margin: auto;
+  max-width: 50%;
+}
+.register-inner h1,.register-inner h2{
+  font-family: "Abril Fatface";
+  font-style: italic;
+}
+.register-inner h1{
+  font-size: 8rem;
+  color: #f1c50e;
+}
+.register-inner h2,a{
+  text-decoration: none;
+  color: #b9c1cc;
+  font-size: 6rem;
+}
+
+/* hover effect put */
+
+.register-inner p{
+  text-align: justify;
+  padding: 10px 0;
+  color: #fff;
+}
+/* register ends */
+
+/* desc start */
+
+.desc .row._1{
+  height: 70vh;
+}
+.desc-content {
+  text-align: center;
+  background-color: #88B0D7;
+  padding: 10px;
+
+}
+
+.desc-content h4{
+  color: #72683f;
+  word-break: none;
+  font-size: 4rem;
+}
+.desc-content p{
+  text-align: justify;
+  padding: 10px 0;
+  font-size: 25px;
+}
+
+.bg01{
+  background-image: url("../assets/background/5_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bg02{
+  background-image: url("../assets/background/VIBGYOR3.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 50%;
+
+}
+.bg05{
+  background-image: url("../assets/background/VIBGYOR6.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 50%;
+  background-position: -86px -174px;
+
+}
+
+.desc .row._2{
+  height: 60vh;
+}
+
+.bg03{
+  background-image: url("../assets/background/vibgyor1.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.bg04{
+  background-image: url("../assets/background/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+}
+
+/* desc ends */
+
+/* highlight */
+.highlights{
+  background-color: #666666;
+  max-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center ;
+}
+
+.highlights h1{
+  font-size: 6rem;
+  color: #f1c50e;
+  text-align: center;
+  font-style: italic;
+}
+
+.highlights p{
+  text-align: center;
+  max-width: 50%;
+  color: #fff;
+  font-size: 20px;
+}
+/* highlights ends */
+
+
+/* events */
+.events{
+  background-color: #292d33;
+  color: #fff;
+
+}
+
+.events h1{
+  font-size: 9rem;
+  font-style: italic;
+  text-align: center;
+}
+.events .content_container h5{
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: left;
+  width: 100%;
+  font-weight: 600;
+   
+}
+
+.events .box{
+  display: flex;
+  padding: 10px;
+}
+.events .box .img_container{
+  max-width: 250px;
+padding: 10px;
+  /* height: 100%; */
+}
+.events .box .img_container img{
+  width: 100%;
+  height: 100%;
+}
+
+.events .content_container{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+.events .button_container button,.events .button_container a{
+font-size: 1.5rem;
+margin: 10px;
+background-color: #478ac9 !important;
+color: #fff;
+font-weight: 500;
+}
+
+.events .button_container a{
+font-weight: 600;
+}
+
+.event_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 80%;
+  margin: auto;
+  
+}
+
+.box .button_container{
+  display: flex;
+
+}
+
+/* events Ends */
+
+/* location */
+
+.location{
+  color: #fff;
+  background-image: url("../assets/background/2IMG_1473.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 75vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.location .row-1{
+  text-align: left;
+  font-size: 3rem;
+  position: absolute;
+top: 0;
+left: 0;
+font-weight: 600;
+
+}
+
+.location .row-2{
+text-align: center;
+font-family: "Abril Fatface";
+font-size: 8rem;
+font-style: italic;
+white-space: nowrap;
+padding: 7px;
+}
+
+.location .row-3{
+text-align: right;
+font-size: 3rem;
+position: absolute;
+right: 0;
+bottom: 0;
+font-weight: 600;
+}
+
+.location .row-4{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.location .row-5{
+  text-align: center;
+  font-family: "Abril Fatface";
+  font-size: 7rem;
+  font-style: italic;
+  
+}
+
+.in-box-1{
+position: relative;
+}
+
+.location .box{
+  max-width: 80%;
+  margin: auto;
+}
+
+
+
+/* location ends*/
