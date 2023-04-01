@@ -1152,9 +1152,9 @@ font-weight: 600;
 
 .location{
   color: #fff;
-  background-image: url("../assets/background/IMG2_1473.jpg");
+  background-image: url("https://res.cloudinary.com/personal-cloud-rohaanmd/image/upload/v1680367284/IMG2_1473_feywua.jpg"); 
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-color: #333333;
   background-size: cover;
   background-position: 100% 100%;
 
